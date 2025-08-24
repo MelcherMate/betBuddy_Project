@@ -1,0 +1,115 @@
+{
+    "editor.formatOnSave": true,
+    "eslint.format.enable": true,
+    "eslint.options": {
+      "extensions": [".js", ".jsx", ".md", ".mdx", ".ts", ".tsx"]
+    },
+    "eslint.validate": ["markdown", "mdx", "javascript", "javascriptreact", "typescript", "typescriptreact"],
+    "eslint.alwaysShowStatus": true,
+    "eslint.probe": ["javascript", "javascriptreact", "typescript", "typescriptreact", "html", "vue", "react"],
+    "[javascript]": {
+      "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[markdown]": {
+      "editor.wordWrap": "off"
+    },
+    "prettier.arrowParens": "always",
+    "git.enableSmartCommit": true,
+    "git.autofetch": true,
+    "git.confirmSync": false,
+    "workbench.iconTheme": "material-icon-theme",
+    "editor.fontFamily": "Fira Code",
+    "editor.fontLigatures": true,
+    "terminal.integrated.fontFamily": "monospace",
+    "explorer.confirmDelete": false,
+  
+    "better-comments.tags": [
+      {
+        "tag": "!",
+        "color": "#FF2D00",
+        "strikethrough": false,
+        "underline": false,
+        "backgroundColor": "transparent",
+        "bold": false,
+        "italic": false
+      },
+      {
+        "tag": "?",
+        "color": "#3498DB",
+        "strikethrough": false,
+        "underline": false,
+        "backgroundColor": "transparent",
+        "bold": false,
+        "italic": false
+      },
+      {
+        "tag": "//",
+        "color": "#474747",
+        "strikethrough": true,
+        "underline": false,
+        "backgroundColor": "transparent",
+        "bold": false,
+        "italic": false
+      },
+      {
+        "tag": "todo",
+        "color": "#FF8C00",
+        "strikethrough": false,
+        "underline": false,
+        "backgroundColor": "transparent",
+        "bold": false,
+        "italic": false
+      },
+      {
+        "tag": "*",
+        "color": " #DDB459",
+        "strikethrough": false,
+        "underline": false,
+        "backgroundColor": "transparent",
+        "bold": false,
+        "italic": false
+      },
+      {
+        "tag": "#",
+        "color": "#00FF00",
+        "strikethrough": false,
+        "underline": false,
+        "backgroundColor": "transparent",
+        "bold": false,
+        "italic": false
+      }
+    ],
+    "eslint.run": "onSave",
+    "[json]": {
+      "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "better-comments.highlightPlainText": true,
+    "better-comments.multilineComments": true,
+    "workbench.startupEditor": "newUntitledFile",
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "search.exclude": {
+      "**/dist": true,
+      "**/index_bundle.js": true,
+      "**/index_bundle.js.map": true,
+      "**/package-lock.json": true,
+      "**/temp": true,
+      "**/wiki": true
+    },
+    "git.ignoreLimitWarning": true,
+    "editor.codeActionsOnSave": {
+      "source.fixAll": "explicit",
+      "source.organizeImports": "explicit",
+      "source.formatOnSave": "explicit",
+      "source.fixAll.eslint": "explicit"
+    },
+    "editor.suggestSelection": "first",
+    "files.exclude": {
+      "**/.classpath": true,
+      "**/.project": true,
+      "**/.settings": true,
+      "**/.factorypath": true
+    },
+    "workbench.editor.empty.hint": "hidden"
+    // "window.zoomLevel": 2
+  }
+  
